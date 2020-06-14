@@ -1,0 +1,338 @@
+.cv-color1 {
+  background-color: #f1f1f1;
+}
+
+.cv-color2 {
+  color: #9d744c;
+}
+
+.cv-main {
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.col-40 {
+  float: left;
+  background-color: #ece3d4;
+  width: 39%;
+  height: 100%;
+  padding-bottom: 3%;
+}
+
+.col-60 {
+  float: left;
+  background-color: #fff;
+  width: 61%;
+  height: 100%;
+}
+
+.photo-frame {
+  width: 90%;
+  height: 0;
+  padding-bottom: 90%;
+  // background-color: fff;
+  margin: auto;
+  margin-top: 4%;
+}
+
+.photo-frame .photo {
+  float: left;
+  width: 80%;
+  height: 0;
+  padding-bottom: 80%;
+  background-color: #505050;
+  margin-top: -100%;
+  ;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.photo-frame .photo-shadow {
+  float: left;
+  width: 85%;
+  height: 0;
+  padding-bottom: 90%;
+  margin-left: 15%;
+  margin-top: 10%;
+  background-color: #d1c3a9;
+}
+
+.left-content {
+  float: left;
+  width: 77%;
+  margin-top: -1%;
+  margin-left: 18%;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  color: #313131;
+  font-family: aileron, sans-serif;
+  line-height: 1.3;
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.photo-shadow .cv-text {
+  text-align: center;
+  font-family: aileron, sans-serif;
+  font-weight: 600;
+  font-size: 12pt;
+  padding-top: 90%;
+  letter-spacing: 6px;
+  color: #515151;
+}
+
+.address {
+  white-space: pre-line;
+  margin-top: -6%;
+}
+
+.contact {
+  white-space: pre-line;
+}
+
+.heading:before {
+  content: "//";
+  font-weight: bold;
+  color: #99764f;
+}
+
+.seperator {
+
+  width: 70%;
+  height: 1.5px;
+  background-color: #606060;
+}
+
+.programs {
+  width: 100%;
+  float: left;
+  margin-top: 8%;
+}
+
+.programs .program-name {
+  float: left;
+  width: 55%;
+  font-weight: bold;
+}
+
+.programs .skills-bar {
+  margin-top: 2.5%;
+  float: left;
+  width: 45%;
+}
+
+.skills-bar .skills-bar-percentage {
+  height: 2px;
+  border: 1px solid #606066;
+  border-left: 0;
+  border-right: 0;
+}
+
+.language {
+  white-space: pre-line;
+}
+
+i {
+  padding-right: 2%;
+}
+
+.web-links {
+  white-space: pre-line;
+}
+
+.left-content .heading {
+  width: 100%;
+  float: left;
+  margin-top: 8%;
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+.right-content {
+  width: 100%;
+}
+
+.right-content .heading {
+  width: 100%;
+  float: left;
+  margin-top: 5%;
+  font-weight: normal;
+  font-size: 12pt;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+}
+
+.my-education {
+  width: 100%
+}
+
+.right-content .seperator {
+  width: 70%;
+}
+
+
+.skills {
+  float: left;
+  width: 100%;
+}
+
+.right-content {
+  margin-top: 6%;
+  margin-left: 5%;
+}
+
+.my-heading .my-name {
+
+  font-family: 'Bebas Neue';
+  font-size: 30pt;
+  margin-top: 10%;
+}
+
+.my-heading .my-title {
+  font-style: italic;
+  margin-top: -1%;
+  font-size: 12pt;
+}
+
+.my-heading a {
+  color: #000;
+  font-weight: 400;
+  font-size: 12pt;
+}
+
+.my-references {
+  float: left;
+}
+
+.my-references .item-title {
+  float: left;
+  font-weight: 500;
+}
+
+.my-references .item-heading{
+  float: left;
+  font-weight: 500;
+}
+
+.my-references .reference {
+  margin-top: 3%;
+  float: left;
+  text-align: left;
+}
+
+.reference span {
+  display: block;
+}
+
+.item-row {
+  float: left;
+  width: 100%;
+  margin-top: 6pt;
+}
+
+
+
+.item-row .left-item {
+  width: 30%;
+  float: left;
+}
+
+.item-row .right-item{
+  float: left;
+  width: 70%;
+}
+
+.awards-item {
+  width: 40%;
+  float: left;
+}
+
+
+.item-heading {
+  text-transform: uppercase;
+  font-size: 7.5pt;
+  font-weight: 400;
+
+}
+
+
+.item-place {
+  font-style: italic;
+  font-size: 7.5pt;
+}
+
+.item-year {
+  font-weight: 400;
+  font-size: 7.5pt;
+}
+
+.item-title {
+  text-transform: uppercase;
+  font-size: 7.5pt;
+  font-weight: 300;
+}
+
+.right-item .item-title {
+  text-transform: uppercase;
+  font-size: 7.5pt;
+  font-weight: 300;
+}
+
+.right-item .item-content {
+  width: 80%;
+  text-align: justify;
+}
+
+.awards-item-year {
+  display: inline;
+  font-weight: 300;
+  color: #000;
+}
+.init-item-name {
+  display: inline;
+  font-weight: 300;
+  color: #000;
+}
+
+
+.hobby-item {
+  float: left;
+  margin-left: 1%;
+}
+
+.hobby-item:first-child {
+  float: left;
+  margin-left: 0%;
+}
+
+.hobby-item  {
+  width: 15%;
+}
+
+
+.hobby-item:last-child {
+  width: 20%;
+  margin-left:-3%;
+}
+
+.hobby-item .hobby-name {
+text-align: center;
+}
+
+.hobby-item .item-icon{
+  font-size:250%;
+  text-align: center;
+}
+
+.my-hobbies .item-row {
+  margin-bottom: 6%;
+}
+
+body {
+  font-family: aileron;
+  font-weight: 100;
+  font-size: 7.5pt;
+}
