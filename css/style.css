@@ -235,13 +235,13 @@ i {
 
 .item-row-heading .item-profile {
     float: left;
-    width: 50%;
+    width: 45%;
     text-align: center;
 }
 
 .item-row-heading .item-company {
     float: left;
-    width: 25%;
+    width: 30%;
 }
 
 .item-row-heading .item-void {
