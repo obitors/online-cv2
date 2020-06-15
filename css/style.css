@@ -6,19 +6,7 @@
     color: #9d744c;
 }
 
-@page
-{
-    size: auto;   /* auto is the initial value */
 
-    /* this affects the margin in the printer settings */
-    margin: 25mm 25mm 25mm 25mm;
-}
-
-body
-{
-    /* this affects the margin on the content before sending to printer */
-    margin: 0px;
-}
 
 body {
     font-family: aileron;
@@ -252,72 +240,8 @@ i {
 
 .item-heading {
     text-transform: uppercase;
-    font-size: 8.5pt;
     font-weight: 600;
     margin-top: 3pt;
     margin-bottom: 3pt;
-}
-
-
-.item-place {
-    font-style: italic;
-    font-size: 7.5pt;
-}
-
-
-
-.item-title {
-    text-transform: uppercase;
-    font-size: 7.5pt;
-    font-weight: 300;
-}
-
-.right-item .item-title {
-    text-transform: uppercase;
-    font-size: 7.5pt;
-    font-weight: 300;
-}
-
-
-
-
-.init-item-name {
-    display: inline;
-    font-weight: 300;
-    color: #000;
-}
-
-
-.hobby-item {
-    float: left;
-    margin-left: 1%;
-}
-
-.hobby-item:first-child {
-    float: left;
-    margin-left: 0%;
-}
-
-.hobby-item {
-    width: 15%;
-}
-
-
-.hobby-item:last-child {
-    width: 20%;
-    margin-left: -3%;
-}
-
-.hobby-item .hobby-name {
-    text-align: center;
-}
-
-.hobby-item .item-icon {
-    font-size: 250%;
-    text-align: center;
-}
-
-.my-hobbies .item-row {
-    margin-bottom: 6%;
 }
 
