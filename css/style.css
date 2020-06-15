@@ -6,10 +6,24 @@
     color: #9d744c;
 }
 
+@page
+{
+    size: auto;   /* auto is the initial value */
+
+    /* this affects the margin in the printer settings */
+    margin: 25mm 25mm 25mm 25mm;
+}
+
+body
+{
+    /* this affects the margin on the content before sending to printer */
+    margin: 0px;
+}
+
 body {
     font-family: aileron;
     font-weight: 400;
-    font-size: 8pt;
+    font-size: 9pt;
     margin: 0;
 }
 
@@ -22,7 +36,6 @@ body {
 
 .col-100 {
     float: left;
-    margin: 0;
     background-color: #fff;
     width: 100%;
     height: 100%;
@@ -37,22 +50,20 @@ body {
     align-content: space-between;
 }
 .my-heading .my-name {
-
-    font-family: 'Bebas Neue';
-    font-size: 30pt;
+    font-size: 12pt;
     margin-top: 0%;
 }
 
 .my-heading .my-title {
-    font-style: italic;
-    margin-top: -1%;
-    font-size: 12pt;
+
+    margin-top: 0%;
+    font-size: 9pt;
 }
 
 .my-heading a {
     color: #000;
     font-weight: 400;
-    font-size: 12pt;
+    font-size: 9pt;
 }
 
 .head-logo {
@@ -82,8 +93,9 @@ body {
 
 .seperator {
 
-    width: 94%;
+    width: 100%;
     height: 1.5px;
+    margin-bottom: 1pt;
     background-color: #606060;
 }
 
@@ -106,6 +118,8 @@ i {
     text-transform: uppercase;
     margin-bottom: 0%;
 }
+
+
 
 .my-education {
     width: 100%
@@ -153,26 +167,32 @@ i {
     display: block;
 }
 
-.item-row {
+.item-edu-row {
     float: left;
     width: 100%;
     margin-top: 3pt;
 }
 
-.item-row .edu-year {
+.item-row {
+    float: left;
+    width: 100%;
+    margin-top: pt;
+}
+
+.edu-year {
     width: 15%;
     float: left;
 }
-.item-row .edu-degree {
+.edu-degree {
     width: 35%;
     float: left;
 }
-.item-row .edu-college {
-    width: 35%;
+.edu-college {
+    width: 40%;
     float: left;
 }
-.item-row .edu-marks {
-    width: 15%;
+.edu-marks {
+    width: 10%;
     float: left;
 }
 
@@ -186,17 +206,55 @@ i {
     width: 70%;
 }
 
-.awards-item {
-    width: 40%;
+.bullet {
+    width: 1.5%;
     float: left;
+}
+
+.award-item-content {
+    width: 88.5%;
+    float: left;
+}
+
+.item-content {
+    width: 98.5%;
+    float: left;
+}
+
+
+.item-year {
+    float: left;
+    width: 10%;
+}
+
+.item-row-heading .item-year {
+    float: left;
+    width: 15%;
+}
+
+.item-row-heading .item-profile {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.item-row-heading .item-company {
+    float: left;
+    width: 25%;
+}
+
+.item-row-heading .item-void {
+    float: left;
+    width: 10%;
 }
 
 
 .item-heading {
     text-transform: uppercase;
-    font-size: 8.5pt;
+    font-size: 9pt;
     font-weight: 600;
-
+    margin-top: 3pt;
+    margin-bottom: 3pt;
 }
 
 
@@ -205,10 +263,7 @@ i {
     font-size: 7.5pt;
 }
 
-.item-year {
-    font-weight: 400;
-    font-size: 7.5pt;
-}
+
 
 .item-title {
     text-transform: uppercase;
@@ -222,16 +277,8 @@ i {
     font-weight: 300;
 }
 
-.right-item .item-content {
-    width: 80%;
-    text-align: justify;
-}
 
-.awards-item-year {
-    display: inline;
-    font-weight: 300;
-    color: #000;
-}
+
 
 .init-item-name {
     display: inline;
