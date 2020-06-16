@@ -27,6 +27,13 @@ body {
     margin: 0;
 }
 
+.item-row {
+    float: left;
+    width: 100%;
+    margin-top: 0pt;
+}
+
+
 .bullet {
     width: 1.5%;
     float: left;
@@ -36,6 +43,13 @@ body {
     width: 88.5%;
     float: left;
 }
+
+.intern {
+    width: 100%;
+    float: left;
+}
+
+
 
 .item-content {
     width: 98.5%;
@@ -150,11 +164,7 @@ i {
     margin-top: 3pt;
 }
 
-.item-row {
-    float: left;
-    width: 100%;
-    margin-top: 0pt;
-}
+
 
 .edu-year {
     width: 15%;
