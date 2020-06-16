@@ -27,6 +27,22 @@ body {
     margin: 0;
 }
 
+.bullet {
+    width: 1.5%;
+    float: left;
+}
+
+.award-item-content {
+    width: 88.5%;
+    float: left;
+}
+
+.item-content {
+    width: 98.5%;
+    float: left;
+
+}
+
 .cv-main {
     max-width: 800px;
     margin: auto;
@@ -48,7 +64,7 @@ body {
 .my-heading {
     padding: 0;
     float: left;
-    align-content: space-between;
+
 }
 .my-heading .my-name {
     font-size: 12pt;
@@ -126,47 +142,7 @@ i {
     width: 100%
 }
 
-.right-content .seperator {
-    width: 100%;
-}
 
-
-.skills {
-    float: left;
-    width: 100%;
-}
-
-.right-content {
-    margin-top: 2%;
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-
-
-.my-references {
-    float: left;
-}
-
-.my-references .item-title {
-    float: left;
-    font-weight: 500;
-}
-
-.my-references .item-heading {
-    float: left;
-    font-weight: 500;
-}
-
-.my-references .reference {
-    margin-top: 3%;
-    float: left;
-    text-align: left;
-}
-
-.reference span {
-    display: block;
-}
 
 .item-edu-row {
     float: left;
@@ -177,7 +153,7 @@ i {
 .item-row {
     float: left;
     width: 100%;
-    margin-top: pt;
+    margin-top: 0pt;
 }
 
 .edu-year {
@@ -197,36 +173,11 @@ i {
     float: left;
 }
 
-.item-row .left-item {
-    width: 30%;
-    float: left;
-}
-
-.item-row .right-item {
-    float: left;
-    width: 70%;
-}
-
-.bullet {
-    width: 1.5%;
-    float: left;
-}
-
-.award-item-content {
-    width: 88.5%;
-    float: left;
-}
-
-.item-content {
-    width: 98.5%;
-    float: left;
-}
 
 
-.item-year {
-    float: left;
-    width: 10%;
-}
+
+
+
 
 .item-row-heading .item-year {
     float: left;
