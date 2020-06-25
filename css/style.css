@@ -124,12 +124,14 @@ body {
 
 
 
+/*
 
 .heading:before {
     content: "//";
     font-weight: bold;
     color: #99764f;
 }
+*/
 
 .seperator {
 
@@ -193,11 +195,13 @@ i {
 .edu-marks {
     width: 10%;
     float: left;
+    text-align: center;
 }
 
 .item-row-heading .item-year {
     float: left;
     width: 15%;
+    text-align: right;
 }
 
 .item-row-heading .item-profile {
@@ -216,6 +220,10 @@ i {
     float: left;
     width: 30%;
     overflow: hidden;
+}
+
+.item-year {
+    text-align: right;
 }
 
 .item-row-heading .item-void {
